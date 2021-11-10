@@ -1,0 +1,22 @@
+{
+    "name": "sartaj/module-checkout",
+    "description": "Checkout page customisation.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sartaj",
+            "email": "muhammadsartajaalam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sartaj\\Checkout\\": ""
+        }
+    }
+}
